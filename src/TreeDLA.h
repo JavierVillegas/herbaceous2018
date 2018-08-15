@@ -27,7 +27,8 @@ public:
     void BWTest(const unsigned char * src, unsigned char * dst, int w, int h);
     
     // sombra
-    void CalculateTreeStructure(vector<vector<ofVec2f> >& PosList,ofVec2f TargetPoint, float CenFac);
+//    void CalculateTreeStructure(vector<vector<ofVec2f> >& PosList,ofVec2f TargetPoint, float CenFac);
+  void CalculateTreeStructureOP(vector<vector<ofVec2f> >& PosList,ofVec2f TargetPoint, float CenFac);
 //	int CalculateTreeStructure(vector< vector<ofVec2f> >& PosList,
 //		vector<ofVec2f> TargetPoints, ofVbo& TheVbo, 
 //		ofVbo& TheLeavesVbo);
